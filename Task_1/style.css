@@ -1,0 +1,81 @@
+/* Global styles */
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333333; 
+    color: #ffffff; 
+}
+
+/* Styles for the header */
+h1 {
+    text-align: center;
+    font-family: "Bungee Spice";
+    background-color: #007bff;
+    color: #007bff; 
+}
+
+h3 {
+    padding-top: 20px;
+    color: #17a2b8; 
+    padding-left: 1em; 
+}
+
+/* Styles for the paragraph */
+p {
+    font-size: 18px;
+}
+b {
+    color: #ffec80;
+    font-size: 20px; 
+}
+em {
+    padding-left: 1em;
+}
+
+/* Styles for the ordered list */
+ol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffd966;
+    margin-left: 40px;
+}
+
+/* Styles for the unordered list */
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffd966;
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+/* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    color: black; 
+}
+
+/* Styles for the hyperlink */
+.hyperlink{
+    padding-left: 1em;
+}
+a {
+    color: #00ffff; 
+}
+
+/* Styles for the first row of the table */
+tr:first-child {
+    background-color: #ffffae;
+}
+
+/* Styles for the subsequent rows of the table */
+tr:not(:first-child) {
+    background-color: #ffffff; 
+}
