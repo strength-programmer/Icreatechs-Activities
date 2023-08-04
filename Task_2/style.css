@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7d794; 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f0932b; 
+  }
+  
+  label {
+    font-weight: bold;
+  }
+
+  /*Input Design*/
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fef9e7; 
+  }
+  
+  /*Submit Design*/
+
+  input[type="submit"] {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: vertical;
+    background-color: #fef9e7; /
+  }
+  
+  
+  /* Adjustments for mobile devices */
+  @media (max-width: 600px) {
+    form {
+      padding: 10px;
+    }
+  }
+  
