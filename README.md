@@ -1,1 +1,1 @@
-# Activity_1_and_2
+# Icreatechs Activities
